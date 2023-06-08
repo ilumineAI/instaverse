@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126855111356",
+    "firebase_url": "https://ai-explorer2023-default-rtdb.firebaseio.com",
+    "project_id": "ai-explorer2023",
+    "storage_bucket": "ai-explorer2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126855111356:android:b870d52179d6e854c366b9",
+        "android_client_info": {
+          "package_name": "com.nagaregames.AIexplorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126855111356-bfq9g6ihmg0gaphed4t2krjhfqateuq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nagaregames.AIexplorer",
+            "certificate_hash": "389a15e66f068236d3a294cb117dc53dbf6206b8"
+          }
+        },
+        {
+          "client_id": "126855111356-5aqos25h2kles1qv4g2hid6s37q79crh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQessP7dO9_u-H8KZLgSdfNoBGAvrBhL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126855111356-5aqos25h2kles1qv4g2hid6s37q79crh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
