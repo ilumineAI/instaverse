@@ -1,0 +1,128 @@
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        #unity-loading-bar {
+            width: 30%;
+            top: 35%;
+            height: 1.5%;
+            background-color: #00000000;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            /* esto es importante para esconder la parte de la bola que sobrepasa el ancho de la barra */
+        }
+        #unity-canvas {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+        }
+        #unity-progress-bar {
+            position: absolute;
+            left: 0;
+            width: 0%;
+            /* debe ser igual al height */
+            height: 100%;
+            /* debe ser igual al width */
+            background-color: #ffffff;
+            border-radius: 0%;
+            /* para hacerlo redondo */
+        }
+
+        .footer__container{
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            bottom:0;
+            width: 100%;
+        }
+        #ilumine-AI-tittle-logo,#bottom-image{
+
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            max-width: 150px;
+        }
+          
+          #ilumine-AI-tittle-logo {
+            left: 10px;
+          }
+          
+          #bottom-image {
+            right: 10px;
+          }
+        
+        
+          #ilumine-AI-tittle-logo img{
+            width: 100%;
+          }
+        
+          
+          #bottom-image img {
+            width:  100%;
+          }
+        
+        
+         small{
+            color: rgba(255, 255, 255, 0.411);
+         }
+
+
+         .container{
+            max-width: 800px;
+            max-height: 800px;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        #unity-loading-bar{
+            position: absolute;
+            z-index: 1000;
+        }
+        
+        #instaVerse-logo{
+            display: flex;
+            width: 40%;
+            margin: auto;
+            margin-bottom: 15%;
+        }
+        
+        #cache-error-panel{
+            width: 50%;
+        
+        }
+        
+        #cache-error-panel img{
+            display: flex;
+            width: 100%;
+
+        }
+        
+        #instaVerse-logo img{
+            display: flex;
+            width: 100%;
+
+        }
+
+        
