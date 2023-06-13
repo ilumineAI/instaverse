@@ -49,6 +49,11 @@
             bottom:0;
             width: 100%;
         }
+        #footer__copyright img {
+            bottom:0;
+            width: 35%;
+            opacity: 0.5;
+          }
         #ilumine-AI-tittle-logo,#bottom-image{
 
             position: absolute;
