@@ -54,7 +54,7 @@ body {
 #footer__copyright img {
     bottom: 0;
     width: 35%;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 #ilumine-AI-tittle-logo,
@@ -128,6 +128,17 @@ small {
     width: 100%;
 
 }
+#pc-version {
+    position: fixed;
+    bottom: -65%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.5);
+    /* puedes ajustar el valor de la escala como lo necesites */
+}
+
 
 #instaVerse-logo img {
     display: flex;

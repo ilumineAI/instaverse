@@ -98,6 +98,8 @@
             </div>
         </div>
         <div id="cache-error-panel" class="cache-error-panel"><img src="CacheErrorPanelDesign.png"></div>
+        <div id="pc-version" class="pc-version"><img src="PcVersion.png"></div>
+
     </div>
     <div className="Description">
         <small>
@@ -149,6 +151,8 @@
         var UnityLogo = document.querySelector("#instaVerse-logo");
 
         var cacheErrorPanel = document.querySelector("#cache-error-panel")
+        var pcVersion = document.querySelector("#pc-version")
+
 
         var bottomImage = document.querySelector("#bottom-image");
 
@@ -168,6 +172,7 @@
                 loadingBar.style.display = "none";
                 UnityLogo.style.display = "none";
                 cacheErrorPanel.style.display = "none";
+                pcVersion.style.display = "none";
                 bottomImage.style.display = "none";
                 container.style.display = "none";
                 footer__container.style.display = "none";
