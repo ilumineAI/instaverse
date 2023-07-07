@@ -91,24 +91,24 @@
 
 <body>
     <canvas id="unity-canvas"></canvas>
-<div id="container" class="container">
-    <div class="instaVerse-logo" id="instaVerse-logo"><img src="instaVerse-logo-01b.png"></div>
-    <div id="unity-loading-bar" class="unity-loading-bar">
-        <div id="unity-progress-bar" class="unity-progress-bar">
+    <div id="container" class="container">
+        <div class="instaVerse-logo" id="instaVerse-logo"><img src="instaVerse-logo-01b.png"></div>
+        <div id="unity-loading-bar" class="unity-loading-bar">
+            <div id="unity-progress-bar" class="unity-progress-bar">
+            </div>
         </div>
+        <div id="cache-error-panel" class="cache-error-panel"><img src="CacheErrorPanelDesign.png"></div>
     </div>
-    <div id="cache-error-panel" class="cache-error-panel"><img src="CacheErrorPanelDesign.png"></div>
-</div>
     <div className="Description">
         <small>
-        Create a playable 3D world with just one click using AI
+            Create a playable 3D world with just one click using AI
         </small>
-      </div>
+    </div>
     <div id="footer__container" class="footer__container">
-            
-        <div id="ilumine-AI-tittle-logo" class="ilumine-AI-tittle-logo"><img src="logoNameFont.png"></div>    
+
+        <div id="ilumine-AI-tittle-logo" class="ilumine-AI-tittle-logo"><img src="logoNameFont.png"></div>
         <div id="footer__copyright" className="footer__copyright"><img src="CopyRight.png">
-          </div>
+        </div>
         <div id="bottom-image" class="bottom-image"><img src="PoweredByBlockadeLabs.png"></div>
     </div>
 
@@ -135,7 +135,7 @@
             devicePixelRatio: pixelRatio
         };
 
-        
+
 
         var canvas = document.querySelector("#unity-canvas");
         var loadingBar = document.querySelector("#unity-loading-bar");
@@ -149,9 +149,10 @@
         var UnityLogo = document.querySelector("#instaVerse-logo");
 
         var cacheErrorPanel = document.querySelector("#cache-error-panel")
+
         var bottomImage = document.querySelector("#bottom-image");
 
-        canvas.style.display = "none"; 
+        canvas.style.display = "none";
 
         var unityGame; // This can be used to access the application with .SendMessage() commands
         var script = document.createElement("script");
@@ -174,7 +175,7 @@
                 footer__copyright.style.display = "none";
                 // Muestra el canvas de Unity
                 console.log("show");
-                canvas.style.display = "block"; 
+                canvas.style.display = "block";
             }).catch(function (message) {
                 alert(message);
             });
